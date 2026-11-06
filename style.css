@@ -1,0 +1,58 @@
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f4f5ef;
+color:#24352b;
+}
+header{
+background:#123c2b;
+color:white;
+text-align:center;
+padding:28px 12px;
+border-radius:0 0 25px 25px;
+}
+.brand{font-size:30px;font-weight:bold}
+.subtitle{font-size:17px;margin-top:6px}
+.bismillah{font-size:21px;margin-top:24px;color:#e5d6a0}
+main{padding:15px;max-width:700px;margin:auto}
+.welcome,.grid button,#content{
+background:white;
+border-radius:16px;
+padding:18px;
+box-shadow:0 3px 12px #0000000c;
+}
+.welcome{margin:15px 0}
+.welcome h2{color:#15583b;font-size:20px}
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:12px;
+}
+.grid button{
+border:1px solid #e5e9df;
+color:#164b35;
+font-size:17px;
+font-weight:bold;
+min-height:100px;
+cursor:pointer;
+}
+#content{margin-top:18px;min-height:180px;line-height:2}
+#content h2{color:#15583b}
+.action{
+display:block;
+width:100%;
+padding:12px;
+margin:8px 0;
+border:0;
+border-radius:10px;
+background:#15583b;
+color:white;
+font-size:17px;
+}
+footer{
+text-align:center;
+padding:25px 10px;
+color:#526a59;
+}
+input{padding:10px;width:100%;margin:8px 0}
